@@ -25,7 +25,10 @@ print("welcome to my program", full_name +"!")
 
 
 #4.What is debugging?
-# debugging is fixing promblems in my code. 
+# debugging is fixing promblems in my code.
+# syntax error
+# Logic error
+# Run-Time error
 
 #5.How do you debug the different types of errors?
 

@@ -17,7 +17,8 @@ full_name = first_name + " " + Last_name
 sentence = "the quick brown fox jumps over the lazy dog."
 
 print("welcome to my program", full_name +"!")
-
+print(sentence.find("brown"))
+print(sentence [10:15])
 #2.Why do we have strings?
 
 
@@ -25,11 +26,17 @@ print("welcome to my program", full_name +"!")
 
 
 #4.What is debugging?
-# debugging is fixing promblems in my code.
-# syntax error
-# Logic error
-# Run-Time error
-
+ # debugging is fixing promblems in my code. a bug is any eror in your code that keeps it from running or working inproperly 
+    # syntax error- misspelling a variable. Doing a print statment with no , or +. below was two diffrent types of "" marks = ' ""
+string ='This is a fixed syntax error'
+ # Logic error
+numOne = "1"
+numTwo = "3"
+print("1+3=", numOne + numTwo)
+ # Run-Time error
+    # a prmblem in the code that will break the code when it runs. 
+letter = "a"
+int(letter)
 #5.How do you debug the different types of errors?
 
 
@@ -39,7 +46,7 @@ print("welcome to my program", full_name +"!")
 #B. concatenate (add)
 
 #C. upper()
-#this makes the first letter of the word capital .upper()
+    #this makes the first letter of the word capital .upper()
 #D. lower()
 
 #E. strip()

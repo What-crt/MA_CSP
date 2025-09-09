@@ -20,15 +20,23 @@ print("welcome to my program", full_name +"!")
 
 #2.Why do we have strings?
 
+
 #3.How do stupid proofing and sanitization relate to each other?
 
+
 #4.What is debugging?
+# debugging is fixing promblems in my code. 
 
 #5.How do you debug the different types of errors?
 
+
 #6.Describe what each of the methods below does:
 #A. find()
+
 #B. concatenate (add)
+
 #C. upper()
+#this makes the first letter of the word capital
 #D. lower()
+
 #E. strip()

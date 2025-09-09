@@ -39,7 +39,7 @@ print("welcome to my program", full_name +"!")
 #B. concatenate (add)
 
 #C. upper()
-#this makes the first letter of the word capital
+#this makes the first letter of the word capital .upper()
 #D. lower()
 
 #E. strip()

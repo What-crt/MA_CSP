@@ -1,10 +1,10 @@
 # MA 6th update hello world
-def hello(): 
-    name = input("What is your name?")
+def hello(name): 
+    name = input("What is your name?").strip().capitalize() 
     print(f"Hello {name}!")
                                 
-hello()
-hello()
-hello()
-hello()
-hello()
+hello("Ashely")
+hello("Sarah")
+hello("Hailey")
+hello("Samantha")
+hello("Todd")

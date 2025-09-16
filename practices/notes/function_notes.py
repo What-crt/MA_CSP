@@ -48,7 +48,7 @@ add(9)
 add(87)
 
 #What return statements are
-    # A renturn statment is when something is put in it returns to a part so it can fix it.
+    # Its when you call a function you can set it equal variable. It jumps back to another place.
 
 #How to use return statements in a program
 def clean(info):

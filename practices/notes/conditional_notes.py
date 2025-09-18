@@ -53,10 +53,30 @@ else:
 #!= -no equal to
 
 #What are the 3 logical operators?
-    #
+    #AND
+    #OR
+    #NOT
+if num >=0 and num < 10: # and means both must be true
+    print(f"{num} is a single digit number")
+elif num < 25 or num ==50: #or means only 1 must be true
+    print(f"WOw {num} is a really cool number.")
+elif not num < 100: #not checks if the opisite is true
+    print(f"{num} is a large number")
+else:
+    print(f"You typed in a {num}")
 
 #What are logical operators for?
-    #
+    #allows to check two or more conditions at the same time.
 
 #What does a nested conditional statement do?
-    #
+    #everything that is tabed over will only happen if it is true. inside condition you can have a diffrent condition.
+name = input("What is your name?")
+
+if name == "Ms LaRose":
+    print("You are the teacher!")
+elif name == "Tia":
+    print("You are the TA!")
+else:
+    if name == "Lucas":
+        print("Your are in 6th period.")
+    print(f"Hello {name}, Your are a student!")

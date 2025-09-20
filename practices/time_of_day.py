@@ -1,12 +1,9 @@
 # MA 6th time of day
 
-
- 
 import datetime
 
 current = datetime.datetime.now()
 hour = current.hour
-hour = float("the time now")
 print(f"The time is: {current}")
 print(f"hour is: {hour}")
 
@@ -18,5 +15,3 @@ elif hour >= 12 and hour <= 16:
 else:
     if hour >= 17 and hour <= 24:
         print("Good Evening!")
-
-    

@@ -33,7 +33,7 @@ for x in range(20, -11, -1):
     #for loops and while loops. 
 #while True:   #infinite loop
     #print("oh No!")    #infinte loops are bad!!!!!
-    #1 iterator(kepp track of loop #)
+    #1 iterator(keep track of loop #)
     #2 end condition(tells the loop to stop)
     #3 increase the iterator
 #good while loop
@@ -54,24 +54,31 @@ x = 1
     #x += 1
 #print("Goose!")
 
-while True:
+
+#What is iteration
+    #it keeps track of how many times the loop has run.
+
+#What are lists? 
+    #complex data type. store multiple pieces of information in the same variable.
+
+#How do you make lists in python? 
+siblings = ["Tyler", "Kenyan", "Mykel", "Jack", ["Glenn", "Sam", "Eliza"], 5, 3.14]
+
+#How do you make for loops in python? 
+for x in siblings:
+    #print(f"Hello {x}")
+    print("Hi!")
+
+for x in range(1,6):
+    print(x)
+for x in range(20, -11, -1):
+    print(x)
+
+#How do you make while loops in python?
+    #while True:
     if number == x:
         print("Goose!")
         break  #breaks the loop 
     else:
         print("Duck")
         x += 1
-
-#What is iteration
-    #
-
-#What are lists? 
-    #complex data type. store multiple pieces of information in the same variable.
-siblings = ["Tyler", "Kenyan", "Mykel", "Jack", ["Glenn", "Sam", "Eliza"], 5, 3.14]
-
-#How do you make lists in python? 
-    #
-#How do you make for loops in python? 
-    #
-#How do you make while loops in python?
-    #

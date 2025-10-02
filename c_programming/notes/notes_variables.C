@@ -1,7 +1,21 @@
-// MA 6th variables. C notes
+// MA 6th variables.c notes
 
 //What is the main difference between declaring variables in Python and C?
-//
+//In c you have to set what type of data the variable will hold. C is static --> data types. and python is dynamic. C is more efficent with the space.
+#include <stdio.h>
+
+int main(void){
+    int num = 4;
+    float pi = 3.14;
+    char grade = 'A'; //Will only hold 1 letter
+    char name[]= "Mykel";
+    //bool passing = true;
+    
+    printf("%d", num);
+
+    return 0;
+}
+
 
 //In C, what is the purpose of specifying a data type when declaring a variable?
 //

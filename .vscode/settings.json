@@ -3,5 +3,6 @@
     "python-envs.pythonProjects": [],
     "files.associations": {
         "notes_variables.C": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe"
 }

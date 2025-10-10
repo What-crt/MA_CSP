@@ -1,5 +1,4 @@
 // MA 6th financial calculator for c
-// Personal Finance Calculator
 #include <stdio.h>
 
 int main() {

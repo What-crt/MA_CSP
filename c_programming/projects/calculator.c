@@ -23,7 +23,7 @@ int main(void){
     printf("Your transportation is $%.2f and that is %.0f%% of your income.\n", transport, (transport/income)*100);
     printf("\nYou should save $%.2f a month, that is 10%% of your income.\n", savings);
     printf("You have $%.2f of spending money each month!\n", spending);
-    
+    Printf("Nice work, keep it up!\n");
     return 0;
 
 }

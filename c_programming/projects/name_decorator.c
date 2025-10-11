@@ -1,4 +1,5 @@
 // MA 6th name decorator for c
+
 #include <stdio.h>
 #include <string.h>
 
@@ -8,8 +9,7 @@ int main(void) {
     char decorated[100] = "<<< ";
 
     printf("Tell me your name: ");
-    fgets(name, sizeof(name), stdin);
-    name[strcspn(name, "\n")] = 0;
+    scanf("%29s", name);  // reads one word, up to 29 characters
 
     strcat(decorated, name);
     strcat(decorated, " >>>");

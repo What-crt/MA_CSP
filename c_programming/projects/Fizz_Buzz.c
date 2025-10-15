@@ -22,10 +22,3 @@ int main (void){
     return 0;
 }
 
-
-    //Write a program that counts from 1 to 50 and replaces numbers based on the following rules:
-
-//Numbers divisible by 3 are replaced with "Fizz"
-//Numbers divisible by 5 are replaced with "Buzz"
-//Numbers divisible by both 3 and 5 are replaced with "FizzBuzz"
-//All other numbers should be printed as is

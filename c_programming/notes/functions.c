@@ -72,19 +72,33 @@ int main(void){
 */
 
 //What are arguments and parameters?
-
+    // Parameters are variables that are used in the function definition.
+    // Arguments are the actual value that are passed to the function. 
 
 //How do arguments and parameters work together?
-
+    //parameters and arguments work together by the parameters being the variables that are used in the function definition. Arguments are the actual value that are passed to the function.
 
 //How to use parameters and arguments in c?
+    //Function definition with parameters 'a' and 'b'
+/*int add(int a, int b) {
+    return a + b;
+}
+*/
 
+/*int main() {
+    int x = 5;
+    int y = 10;
+    // Calling the 'add' function with arguments 'x' and 'y'
+    int sum = add(x, y); 
+    return 0;
+}
+    */
 
 //What are return statements?
-
+    // Return statements are used to return something from a function to a new part.
 
 //How do return statements change how you define a function in C?
-
+    // Return statements change how you define a function by chhanging the return type of the function. 
 
 //What do return statements do with the information?
-
+    // Return statements return the information to a new part of the code where the function is called.

@@ -25,7 +25,7 @@ void showRules() {
 void showHangman(int attempts) {
     switch (attempts) {
         case 7:
-            printf("\n  -----\n      |\n      |\n      |\n     ---\n");
+            printf(" -----\n      |\n      |\n      |\n     ---\n");
             break;
         case 6:
             printf("\n  -----\n  O   |\n      |\n      |\n     ---\n");
